@@ -1,0 +1,11 @@
+C:\Projects\bankProject\bankProject\bin\Debug\netcoreapp2.1\bankProject.deps.json
+C:\Projects\bankProject\bankProject\bin\Debug\netcoreapp2.1\bankProject.runtimeconfig.json
+C:\Projects\bankProject\bankProject\bin\Debug\netcoreapp2.1\bankProject.runtimeconfig.dev.json
+C:\Projects\bankProject\bankProject\bin\Debug\netcoreapp2.1\bankProject.dll
+C:\Projects\bankProject\bankProject\bin\Debug\netcoreapp2.1\bankProject.pdb
+C:\Projects\bankProject\bankProject\obj\Debug\netcoreapp2.1\bankProject.csprojAssemblyReference.cache
+C:\Projects\bankProject\bankProject\obj\Debug\netcoreapp2.1\bankProject.csproj.CoreCompileInputs.cache
+C:\Projects\bankProject\bankProject\obj\Debug\netcoreapp2.1\bankProject.AssemblyInfoInputs.cache
+C:\Projects\bankProject\bankProject\obj\Debug\netcoreapp2.1\bankProject.AssemblyInfo.cs
+C:\Projects\bankProject\bankProject\obj\Debug\netcoreapp2.1\bankProject.dll
+C:\Projects\bankProject\bankProject\obj\Debug\netcoreapp2.1\bankProject.pdb
