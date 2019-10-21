@@ -182,10 +182,10 @@ namespace bankProject
         {
             Console.WriteLine("Glad to welcome you to the bank");
             Console.WriteLine("Сhoose a service: \n 1.\tСumulative card;\n 2.\tDeposit card;\n 3.\tCredit card;\n 4.\tExit;\n  ");
-            int answer = Convert.ToInt32(Console.ReadLine());
+            string answer = Console.ReadLine();
             switch (answer)
             {
-                case 1:
+                case "1":
                     Сumulative cumulative = new Сumulative("Client", 0, "Сumulative");
                     Console.WriteLine("Enter your name: ");
                     cumulative.setName(Console.ReadLine());
@@ -194,25 +194,25 @@ namespace bankProject
                     cumulative.getInfo();
                     Console.WriteLine("Фdding, withdrawing money");
                     Console.WriteLine("Сhoose a operation: \n 1.\tAdd money;\n 2.\tWithdraw money;\n 3.\tExit;\n ");
-                    int choose = Convert.ToInt32(Console.ReadLine());
+                    string choose = Console.ReadLine();
                     switch (choose)
                     {
-                        case 1:
+                        case "1":
                             Console.WriteLine("Enter recharge amount: ");
                             cumulative.Put(Convert.ToDouble(Console.ReadLine()));
                             cumulative.getInfo();
                             break;
-                        case 2:
+                        case "2":
                             Console.WriteLine("Enter withdrawal amount: ");
                             cumulative.Withdraw(Convert.ToDouble(Console.ReadLine()));
                             cumulative.getInfo();
                             break;
-                        case 3:
+                        case "3":
                             Console.WriteLine("You enter exit");
                             break;
                     }
                     break;
-                case 2:
+                case "2":
                     Deposit deposit = new Deposit("Client", 0, "Deposit", 0);
                     Console.WriteLine("Enter your name: ");
                     deposit.setName(Console.ReadLine());
@@ -230,7 +230,7 @@ namespace bankProject
                     result = Math.Round(result, 2);
                     Console.WriteLine("You've earned  " + result);
                     break;
-                case 3:
+                case "3":
                     Credit credit = new Credit("Client", 0, "Deposit", 0);
                     Console.WriteLine("Enter your name: ");
                     credit.setName(Console.ReadLine());
@@ -248,7 +248,7 @@ namespace bankProject
                     procents = Math.Round(procents, 2);
                     Console.WriteLine("You overpaid  " + procents);
                     break;
-                case 4:
+                case "4":
                     Console.WriteLine("You enter exit");
                     break;
                 default:
